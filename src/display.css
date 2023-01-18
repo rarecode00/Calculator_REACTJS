@@ -1,0 +1,33 @@
+input{
+    width: 279px;
+    height: 130px;
+    text-align: end;
+    font-size: 1.6rem;
+    padding-top: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+input:focus{
+    border: none;
+}
+
+.pos{
+    position: relative;
+    top: 16px;
+}
+
+input[type=text] {
+    word-wrap: break-word;
+    word-break: break-all;
+    height: 80px;
+    overflow: hidden;
+
+}
+
+.ans{
+    background-color: black;
+    width: 279px;
+    color: white;
+}
